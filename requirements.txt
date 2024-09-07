@@ -1,0 +1,14 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+emoji
+requests
+pdfplumber
+fastapi[standard]
+beautifulsoup4
+uuid
+streamlit
+scipy
