@@ -5,7 +5,7 @@ from constants import MARKDOWN_DOC_STRING
 from database import get_all_extractions, get_extraction_by_id
 
 # FastAPI backend URL
-fastapi_url = "http://localhost:8000"  # Adjust this if FastAPI is hosted elsewhere
+fastapi_url = "http://localhost:8000"
 
 st.markdown("""
     <style>
@@ -22,7 +22,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 if "selected_section" not in st.session_state:
-    st.session_state.selected_section = "API Documentation"  # Set default section
+    st.session_state.selected_section = "API Documentation" 
 st.title("Data Extraction and Query App")
 
 
@@ -115,7 +115,7 @@ elif st.session_state.selected_section == "Chat":
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    col1, col2, col3 = st.columns([1, 3, 1])  # Adjust column width ratios as needed
+    col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
         chat_id = st.text_input("Chat ID", placeholder="Enter Chat ID", key="chat_id")
