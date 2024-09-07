@@ -1,12 +1,13 @@
 import nltk
 import string
 import emoji
-nltk.download('punkt')
-nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 lemmatizer = WordNetLemmatizer()
 

@@ -1,0 +1,11 @@
+scikit-learn
+pandas
+numpy
+nltk
+emoji
+requests
+pdfplumber
+fastapi[standard]
+beautifulsoup4
+uuid
+streamlit
